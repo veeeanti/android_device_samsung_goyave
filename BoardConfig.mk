@@ -5,6 +5,7 @@
 # with device-specific names to avoid collisions, to avoid device-specific
 # bitrot and build breakages.
 DEVICE_PATH := device/samsung/goyave
+COMMON_PATH := device/samsung/sc8830-common
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
